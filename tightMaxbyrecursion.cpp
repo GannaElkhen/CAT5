@@ -1,4 +1,5 @@
-
+//الright max 
+//باستخدام الleft max
 #include <iostream>
 using namespace std;
 
