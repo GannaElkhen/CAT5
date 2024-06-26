@@ -11,14 +11,14 @@ int ispalindrom(int a[], int n,int r) {
         else
             cout << "no";
 
-        return 0;
+        
     }
 
     else if (a[n] == a[r])
         sum++;
     
     
-    ispalindrom(a, n-1, r + 1);
+ return ispalindrom(a, n-1, r + 1);
 
     
     
