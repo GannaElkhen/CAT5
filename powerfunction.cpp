@@ -30,9 +30,9 @@ int p(int v, int n) {
 
 int main()
 {
-    int v;
-    cin >> v;
-   cout<< p(v, 2);
+    int v,n;
+    cin >> v>>n;
+   cout<< p(v, n);
     
 }
 
