@@ -11,7 +11,7 @@ int suffixsum(int a[], int n, int r, int k) {
 
     sum += a[r];
 
-    suffixsum(a, n, r + 1, k);
+ return suffixsum(a, n, r + 1, k);
 
 
 
